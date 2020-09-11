@@ -33,6 +33,7 @@ h1 {
 }
 
 h2 {
+  margin-top: 20px;
   font-size: 16px;
   font-weight: normal;
   letter-spacing: 1px;
@@ -41,7 +42,7 @@ h2 {
 a {
   display: block;
   max-width: 380px;
-  margin: 0 auto 20px auto;
+  margin: 0 auto 10px auto;
   padding: 10px 20px;
   color: #ffffff;
   border: 2px solid #ffffff;
