@@ -10,6 +10,9 @@ body {
   margin: 0px;
   padding: 0px 10px;
   min-height: 100vh;
+  max-width: 400px;
+  margin: auto;
+  
   background-color: #000000;
   background-image: url(bg.jpg);
   background-position: center; 
@@ -40,10 +43,6 @@ h2 {
 }
 
 a {
-  display: block;
-  max-width: 380px;
-  margin: 0 auto 10px auto;
-  padding: 10px 20px;
   color: #ffffff;
   border: 2px solid #ffffff;
   
@@ -51,8 +50,37 @@ a {
   text-decoration: none;
 }
 
+a.work-link {
+  display: block;
+  max-width: 400px;
+  margin: 0 auto 10px auto;
+  padding: 10px 20px;
+}
+
+div.social {
+  display: flex;
+}
+
+a.social-link {
+  flex: 1;
+  padding: 5px 5px;
+  margin: 5px;
+}
+
+a.social-link:first-child {
+  margin-left: 0px;
+}
+
+a.social-link:last-child {
+  margin-right: 0px;
+}
+
 a:hover {
   background-color: #ffffff;
   color: #000000;
   font-weight: 100;
+}
+
+#social > a {
+  display: inline;
 }
